@@ -32,6 +32,10 @@
       rows="10"
       bind:value={text}
     />
+    <!-- prettier-ignore -->
+    <div class="mt-2 is-size-7 has-text-right">
+      We only match log lines with the pattern <span class="is-family-monospace has-text-danger">"[0-9]+ of [0-9]+ .* model .*"</span>
+    </div>
   </section>
 
   <section class="section">

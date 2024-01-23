@@ -33,5 +33,5 @@ export const getFirstUniqueLogLine = (list) => {
     ? matchingLines[firstUnique]
     : list == ""
     ? "Please paste in some log lines."
-    : "All models have were run successfully or errors are obvious in the logs.";
+    : "All models have were run successfully, errors are obvious in the logs or there are no matching log lines.";
 };
